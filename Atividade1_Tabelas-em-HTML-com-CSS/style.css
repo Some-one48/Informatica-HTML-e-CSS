@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --s1: rgb(247, 180, 117);
+    --s2: rgb(182, 124, 226);
+    --s3: rgb(120, 111, 221);
+    --s4: rgb(144, 230, 129);
+    --s5: rgb(234, 156, 204);
+    --pausa: rgb(221, 221, 221);
+}
+
+body{
+    padding: 3%;
+}
+
+header {
+    margin-bottom: 2%;
+}
+
+main {
+    min-height: 100vh;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 7px;
+}
+
+.lab4 {
+    background-color: var(--s1);
+}
+
+.lab1 {
+    background-color: var(--s2);
+}
+
+.quadra {
+    background-color: var(--s3);
+}
+
+.sala1 {
+    background-color: var(--s4);
+}
+
+.sala6 {
+    background-color: var(--s5);
+}
+
+.pausa{
+    font-size: 14px;
+    background-color: var(--pausa);
+}
+
+.pausa2{
+    text-align: center;
+}
+
+.espaço {
+    background-color: var(--pausa);
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+}
+
