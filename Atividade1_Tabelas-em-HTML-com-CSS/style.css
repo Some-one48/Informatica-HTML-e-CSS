@@ -5,6 +5,11 @@
 }
 
 :root {
+    --bg: rgb(245, 247, 245);
+    --green: #288037;
+    --red: #911935;
+    --black: #000000;
+
     --s1: rgb(247, 180, 117);
     --s2: rgb(182, 124, 226);
     --s3: rgb(120, 111, 221);
@@ -14,15 +19,20 @@
 }
 
 body{
-    padding: 3%;
+    background-color: var(--bg);
 }
 
 header {
-    margin-bottom: 2%;
+    padding: 2%;
+    background-color: var(--green);
+    color: var(--bg);
 }
 
 main {
+    padding: 2%;
     min-height: 100vh;
+
+    display: flex;
 }
 
 table, th, td {
@@ -35,6 +45,12 @@ table {
 
 th, td {
     padding: 7px;
+    width: 160px;
+}
+
+caption {
+    text-align: left;
+    font-size: 20px;
 }
 
 .lab4 {
@@ -70,8 +86,27 @@ th, td {
     background-color: var(--pausa);
 }
 
-footer {
-    text-align: center;
-    margin: 10px;
+.prof {
+    display: flex;
 }
 
+dt {
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#info {
+    margin-left: 5%;
+}
+
+footer {
+    background-color: var(--green);
+    text-align: center;
+    padding: 10px;
+    color: var(--bg);
+}
+
+a {
+    color: var(--bg);
+}
