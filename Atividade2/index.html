@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade — Canvas e SVG</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Atividade: painel gráfico com Canvas e SVG</h1>
+        <p>Complete os arquivos marcados com <code>TODO</code>.</p>
+        <a href="../roteiro.md">Consultar roteiro</a>
+    </header>
+
+    <main>
+        <section>
+            <h2>Parte 1 — Canvas</h2>
+            <p>Crie um gráfico de barras e elementos gráficos usando JavaScript.</p>
+            <canvas id="tela" width="600" height="400">
+                Seu navegador não suporta o elemento Canvas.
+            </canvas>
+        </section>
+
+        <section>
+            <h2>Parte 2 — SVG</h2>
+            <p>Complete as formas e implemente a interação.</p>
+
+            <svg id="logo" viewBox="0 0 600 400" role="img" aria-labelledby="titulo-svg descricao-svg">
+                <title id="titulo-svg">Logotipo do painel tecnológico</title>
+                <desc id="descricao-svg">Cartão vetorial que deverá ser completado pelo estudante.</desc>
+
+                <!-- TODO 1: crie um retângulo de fundo com cantos arredondados. -->
+
+                <!-- TODO 2: crie três linhas representando conexões. -->
+
+                <!-- TODO 3: crie um círculo com id="simbolo". -->
+
+                <!-- TODO 4: crie um polígono dentro ou próximo do círculo. -->
+
+                <!-- TODO 5: adicione os textos "Tech Monitor" e "Clique no símbolo". -->
+            </svg>
+
+            <p id="estado" aria-live="polite">O símbolo ainda não foi ativado.</p>
+        </section>
+    </main>
+
+    <script src="js/canvas.js"></script>
+    <script src="js/svg.js"></script>
+</body>
+</html>
