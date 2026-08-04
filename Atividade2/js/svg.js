@@ -5,9 +5,21 @@ const simbolo = document.getElementById("simbolo");
 const estado = document.getElementById("estado");
 
 // ETAPA 3 — Crie uma variável booleana para controlar a cor atual.
-// TODO
+let bool = false;
+
+function ativar(){
+    bool = !bool;
+
+    if (bool == true){
+        simbolo.setAttribute("fill", "darkorange");
+        estado.textContent = "O símbolo está laranja";
+    }else{
+        simbolo.setAttribute("fill", "blue");
+        estado.textContent = "O símbolo está azul";
+    }
+}
 
 // ETAPA 4 — Adicione um evento de clique ao círculo.
 // No clique, alterne o atributo fill entre azul e laranja.
 // Atualize também a mensagem exibida no elemento estado.
-// TODO
+simbolo.addEventListener("click", ativar);
