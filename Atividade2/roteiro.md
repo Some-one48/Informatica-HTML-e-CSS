@@ -171,13 +171,13 @@ Observe:
 
 Antes de abrir `solucao/index.html`, verifique:
 
-- [ ] o Canvas possui fundo, título, eixos e quatro barras;
-- [ ] as barras usam gradiente;
-- [ ] há um círculo desenhado no Canvas;
-- [ ] o SVG possui retângulo, círculo, linhas, polígono e texto;
-- [ ] o círculo SVG muda de cor ao ser clicado;
-- [ ] não há erros no console;
-- [ ] os arquivos estão organizados e indentados.
+- [x] o Canvas possui fundo, título, eixos e quatro barras;
+- [x] as barras usam gradiente;
+- [x] há um círculo desenhado no Canvas;
+- [x] o SVG possui retângulo, círculo, linhas, polígono e texto;
+- [x] o círculo SVG muda de cor ao ser clicado;
+- [x] não há erros no console;
+- [x] os arquivos estão organizados e indentados.
 
 Depois, compare sua implementação com a solução. Uma solução diferente também pode estar correta, desde que cumpra os requisitos.
 
