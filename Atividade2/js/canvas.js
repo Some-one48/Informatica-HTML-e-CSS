@@ -28,7 +28,7 @@ ctx.stroke();
 
 ctx.beginPath();
 ctx.moveTo(30,60);
-ctx.lineTo(30,380);
+ctx.lineTo(30,baixo);
 ctx.stroke();
 
 // ETAPA 5 — Crie um gradiente vertical para preencher as barras.
